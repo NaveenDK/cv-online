@@ -45,7 +45,7 @@ background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, F
  top:0;
  left:0;
  width:100%;
- 
+
 }
 
 .avatar-img{
@@ -60,7 +60,9 @@ background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, F
   border-radius:10px;
 
 }
-
+.projects-grid{
+  display:flex;
+}
 .banner-text h1{
   font-size:66px;
   font-weight:bold;
