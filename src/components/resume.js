@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-
+import Skills from './skills';
 class Resume extends Component {
     render(){
         return(
@@ -80,7 +80,43 @@ class Resume extends Component {
                             extension for the open-source React JavaScript library.
                              It allows you to inspect the React component hierarchies
                               in the Chrome Developer Tools."/> 
-
+   <hr style={{borderTop: '3px solid #e22947'}} />
+   <h2>Skills</h2>
+                            <Skills
+                            skillName="JavaScript"
+                            skillDescription= "React Developer Tools is a Chrome DevTools
+                            extension for the open-source React JavaScript library.
+                             It allows you to inspect the React component hierarchies
+                              in the Chrome Developer Tools."
+                            />
+                             <Skills
+                            skillName="ReactJS"
+                            skillDescription= "React Developer Tools is a Chrome DevTools
+                            extension for the open-source React JavaScript library.
+                             It allows you to inspect the React component hierarchies
+                              in the Chrome Developer Tools."
+                            />
+                              <Skills
+                            skillName="React Native"
+                            skillDescription= "React Developer Tools is a Chrome DevTools
+                            extension for the open-source React JavaScript library.
+                             It allows you to inspect the React component hierarchies
+                              in the Chrome Developer Tools."
+                            />
+                            <Skills
+                          skillName="Wordpress"
+                          skillDescription= "React Developer Tools is a Chrome DevTools
+                          extension for the open-source React JavaScript library.
+                           It allows you to inspect the React component hierarchies
+                            in the Chrome Developer Tools."
+                          />
+                            <Skills
+                          skillName="HTML/CSS"
+                          skillDescription= "React Developer Tools is a Chrome DevTools
+                          extension for the open-source React JavaScript library.
+                           It allows you to inspect the React component hierarchies
+                            in the Chrome Developer Tools."
+                          />
 
                     </Cell>
 
